@@ -1,0 +1,24 @@
+{
+  "name": "gasca-discord-bot",
+  "version": "0.0.1",
+  "description": "Discord bot that announces that you are a gâscă when playing cruce.",
+  "main": "./prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r ./prod/index.js",
+    "start:watch": "tsc --watch"
+  },
+  "author": "Mircea Casapu",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.29",
+    "typescript": "^4.6.4"
+  }
+}
